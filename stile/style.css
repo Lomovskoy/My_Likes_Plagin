@@ -1,0 +1,88 @@
+.heart.icon {
+  color: #417DBC;
+  position: absolute;
+  margin-top: 9px;
+  margin-left: 6px;
+  width: 9px;
+  height: 9px;
+  border-left: solid 1px currentColor;
+  border-bottom: solid 1px currentColor;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.heart.icon:before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -1px;
+  width: 8px;
+  height: 5px;
+  border-radius: 5px 5px 0 0;
+  border-top: solid 1px currentColor;
+  border-left: solid 1px currentColor;
+  border-right: solid 1px currentColor;
+}
+
+.heart.icon:after {
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 8px;
+  width: 5px;
+  height: 8px;
+  border-radius: 0 5px 5px 0;
+  border-top: solid 1px currentColor;
+  border-right: solid 1px currentColor;
+  border-bottom: solid 1px currentColor;
+}
+/*******************************************************************************/
+.article{
+    margin: auto;
+    text-align: left;
+    width: 800px;
+}
+hr{
+    color: #dbefff;
+    opacity: 0.5;
+}
+h2{
+    text-align: center;
+}
+.like{
+    border: 1px #E7E7E7 solid;
+    height: 25px;
+    border-radius: 3px;
+    color: #417DBC;
+    font-family: arial;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+
+}
+.text_like{
+    color: #417DBC;
+    padding-top: 4px;
+    display: inline-block;
+    top: 3px;
+    padding-left: 0px;
+}
+.wraper_heart{
+    float: left;
+    padding-right: 0px;
+    height: 25px;
+    width: 20px;
+}
+.namber{
+    display: inline-block;
+    float: right;
+    padding-top: 4px;
+    padding-left: 8px;
+    padding-right: 2px;
+}
+.span{
+    display: block; /* Ссылка как блочный элемент */
+    text-align: center; /* Выравнивание по центру */
+    height: 100%; /* Высота на весь слой */
+    color: #666; /* Цвет ссылки */
+}
